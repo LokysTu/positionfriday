@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(82, 155, 134, 1), rgba(33, 64, 55, 1));
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+.content-wrapper {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header .header-container {
+    max-width: 1100px;
+    width: 100%;
+    max-height: 169px;
+    margin-top: 20px;
+}
+
+.main-title {
+    font-size: 64px;
+    color: white;
+    line-height: 78px;
+    width: 96px;
+    text-align: center;
+    margin: 90px 0px 0px 532px;
+    position: absolute;
+    z-index: 15;
+}
+
+.color-box {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background-color: rgba(188, 47, 87, 1);
+    margin-left: 515px;
+    z-index: 10;
+}
+
+.header-strip {
+    position: absolute;
+    height: 60px;
+    width: 1100px;
+    background-color: rgba(239, 244, 247, 1);
+    margin-top: 35px;
+    margin-left: 30px;
+    z-index: 13;
+}
+
+.content-section {
+    position: relative;
+    width: 1100px;
+    height: 725px;
+    margin-top: 205px;
+    margin-left: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    z-index: 12;
+}
+
+.book-title {
+    position: absolute;
+    font-size: 64px;
+    margin-left: 249px;
+    margin-top: 26px;
+    line-height: 78px;
+    width: 758px;
+    color: rgba(33, 64, 55, 1);
+    z-index: 14;
+}
+
+.book-subtitle {
+    position: absolute;
+    font-size: 128px;
+    width: 466px;
+    line-height: 156px;
+    color: rgba(82, 155, 134, 1);
+    z-index: 13;
+    margin-top: 26px;
+    margin-left: 532px;
+}
+
+.author-section {
+    position: absolute;
+    background-color: rgba(188, 47, 87, 1);
+    width: 490px;
+    height: 303px;
+    margin-top: 200px;
+    margin-left: 305px;
+    z-index: 13;
+}
+
+.author-image {
+    position: absolute;
+    width: 132px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 179px;
+    z-index: 19;
+}
+
+.star {
+    width: 20px;
+    aspect-ratio: 1;
+    background: rgba(245, 245, 245, 1);
+    clip-path: polygon(50% 0, calc(50% * (1 + sin(.4turn))) calc(50% * (1 - cos(.4turn))),
+        calc(50% * (1 - sin(.2turn))) calc(50% * (1 - cos(.2turn))),
+        calc(50% * (1 + sin(.2turn))) calc(50% * (1 - cos(.2turn))),
+        calc(50% * (1 - sin(.4turn))) calc(50% * (1 - cos(.4turn)))
+    );
+}
+
+.star-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-left: 173px;
+    margin-top: 183px;
+}
+
+.contribute-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 216px;
+    margin-left: 170px;
+    z-index: 19;
+    border: 2px solid rgba(245, 245, 245, 1);
+    color: rgba(245, 245, 245, 1);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.text-box {
+    position: absolute;
+    background-color: rgba(245, 245, 245, 1);
+    width: 1000px;
+    height: 430px;
+    margin-top: 265px;
+    margin-left: 50px;
+    z-index: 12;
+}
+
+.text-content {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 268px;
+    line-height: 19.5px;
+    max-width: 650px;
+    max-height: 72px;
+    color: rgba(0, 0, 0, 1);
+    z-index: 13;
+    text-align: left;
+}
+
+.read-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 350px;
+    margin-left: 30px;
+    z-index: 19;
+    border: 2px solid rgba(33, 64, 55, 1);
+    color: rgba(33, 64, 55, 1);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
